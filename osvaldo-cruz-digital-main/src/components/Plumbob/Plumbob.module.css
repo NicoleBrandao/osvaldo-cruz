@@ -1,0 +1,20 @@
+.plumbob {
+	position: relative;
+	display: block;
+	flex: 0 0 auto;
+	width: 1.5rem;
+	height: 2rem;
+	background:
+		linear-gradient(135deg, transparent 0 34%, rgba(255, 255, 255, 0.78) 35% 37%, transparent 38% 100%),
+		linear-gradient(45deg, rgba(8, 52, 111, 0.62) 0 28%, transparent 29% 67%, rgba(255, 255, 255, 0.54) 68% 70%, transparent 71% 100%),
+		linear-gradient(135deg, #f1ffff 0%, #8beaff 24%, #3bd4e5 48%, #5598ff 72%, #e5ffff 100%);
+	clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+	filter: drop-shadow(0 0 4px rgba(117, 231, 255, 0.95)) drop-shadow(0 0 10px rgba(65, 157, 255, 0.55));
+}
+
+.plumbob::after {
+	position: absolute;
+	inset: 0;
+	background: radial-gradient(ellipse at 29% 22%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.28) 19%, transparent 38%);
+	content: "";
+}

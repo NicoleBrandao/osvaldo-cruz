@@ -1,0 +1,14 @@
+.tela {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: column;
+	gap: 1.5rem;
+	padding: 2rem;
+	box-sizing: border-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #061b49;
+}
